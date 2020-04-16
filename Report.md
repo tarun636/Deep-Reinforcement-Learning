@@ -1,5 +1,5 @@
 # Deep Reinforcement Learning : Project 1:Navigation Report
-Author: [Nishi Sood](https://github.com/nishi-sood/DeepReinforcementLearning_NishiSood) 
+Author: Tarun Rao
 
 ## About Deep Reinforcement Learning Terminologies
 
@@ -83,7 +83,5 @@ The best performance was achieved by Dueling DQN where the reward of +13 was ach
 
 ### Ideas for future work
  - This model was a simple DQN network, we even tried double q-learning and, switch to a dueling dqn architecture.
- - we can obviously implement DQN improved algorithms such as Prioritized Experience Replay, Dueling, Rainbow to get better result.
- - Also, a systematic exploration of the hyperparameters, several Neural Networks architectures, could help us to build an agent that would learn faster.
- - We can see if the Google Deepmind ConvNet architecture generalizes to this environment.
+ - We can leverage deep neural nets architecture and especially conv met architecture to improve the performance
 
