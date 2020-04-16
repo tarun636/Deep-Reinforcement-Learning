@@ -6,7 +6,7 @@
 
 ### Introduction
 
-This project repository contains Nishi Sood’s work for the Udacity's Deep Reinforcement Learning Nanodegree Project 1: Navigation. For this project, I have trained an agent to navigate (and collect bananas!) in a large, square world.
+This project repository contains Tarun Rao's work for the Udacity's Deep Reinforcement Learning Nanodegree Project 1: Navigation. For this project, I have trained an agent to navigate (and collect bananas!) in a large, square world.
 
 ### Project's goal
  - The environment is square world filled with yellow and blue bananas. 
