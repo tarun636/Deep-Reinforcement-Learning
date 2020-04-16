@@ -9,7 +9,7 @@ Author: Tarun Rao
  - At the heart of the learning algorithm is the , Deep Q-learning, which surpassed human-level performance in Atari games.
  - To step back for a bit, the idea of Q-learning is to learn the action-value function, often denoted as Q(s, a) , where s represents the current state and a represents the action being evaluated. 
 
-![q-learning-update](images/q-learning.png)  
+![q-learning-update](Images/q-learning.png)  
 
  - Q-learning is a form of Temporal-Difference learning (TD-learning), where unlike Monte-Carlo methods, we can learn from each step rather than waiting for an episode to complete. The idea is that once we take an action and are thrust into a new state, we use the current Q-value of that state as the estimate for future rewards.
  - Double DQN
@@ -17,7 +17,7 @@ Author: Tarun Rao
   - DQNs are known to overestimate the value function because of the max operator.  
   - The idea of Double DQN is to disentangle the calculation of the Q-targets into finding the best action and then calculating the Q-value for that action in the given state. The trick then is to use one network to choose the best action and the other to evaluate that action.  
 
-  ![dueling network](images/dueling_network.png) 
+  ![dueling network](Images/dueling_network.png) 
   
  - Dueling DQN
   - Normally, DQNs have a single output stream with the number of output nodes equal to the number of actions. But this could lead to unnecessarily estimating the value of all the actions for states for states which are clearly bad and where, choosing any action won't matter that much.
@@ -35,7 +35,7 @@ Author: Tarun Rao
 
 In this project, the goal is to train an agent to navigate a virtual world and collect as many yellow bananas as possible while avoiding blue bananas
 
-![trained](images/trained_agent.gif) 
+![trained](Images/trained_agent.gif) 
 
 
 ## Environment details
@@ -79,7 +79,7 @@ The best performance was achieved by Dueling DQN where the reward of +13 was ach
 
 | Double DQN                                 | DQN                                | Dueling DQN                                         |
 | ------------------------------------------ | ---------------------------------- | --------------------------------------------------- |
-| ![double-dqn](results/ddqn_new_scores.png) | ![dqn](results/dqn_new_scores.png) | ![dueling double dqn](results/Duelingddqn_new_scores.png) |
+| ![double-dqn](Results/ddqn_new_scores.png) | ![dqn](Results/dqn_new_scores.png) | ![dueling double dqn](Results/Duelingddqn_new_scores.png) |
 
 ### Ideas for future work
  - This model was a simple DQN network, we even tried double q-learning and, switch to a dueling dqn architecture.
